@@ -6,8 +6,10 @@ public class ComentarioBasico {
 		/*
 		 * COMENTÁRIO DE BLOCO
 		 */
-		
-		// COMENTÁRIO DE LINHA
+
+		int i = 0; // COMENTÁRIO DE LINHA
+
+		System.out.println(i);
 
 	}
 
