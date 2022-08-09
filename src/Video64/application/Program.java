@@ -1,8 +1,9 @@
 package Video64.application;
 
+import Video64.entities.Triangle;
+
 import java.util.Locale;
 import java.util.Scanner;
-import Video65.entites.Triangle;
 
 public class Program {
 
