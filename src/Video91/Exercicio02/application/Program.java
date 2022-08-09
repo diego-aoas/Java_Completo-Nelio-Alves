@@ -11,7 +11,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int qtd = 0;
+        int qtd;
 
         System.out.print("Quantos numeros voce vai digitar?: ");
         qtd = sc.nextInt();
