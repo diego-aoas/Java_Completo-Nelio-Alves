@@ -22,7 +22,6 @@ public class Program {
             System.out.print("### Dados da " + (i + 1) + "a pessoa ###");
             System.out.print("\nNome: ");
             String nome = sc.next();
-            sc.nextLine();
 
             System.out.print("Idade: ");
             int idade = sc.nextInt();
@@ -62,8 +61,6 @@ public class Program {
             }
             System.out.printf(menor + "    ");
         }
-
         sc.close();
-
     }
 }
