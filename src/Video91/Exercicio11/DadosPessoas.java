@@ -44,7 +44,7 @@ public class DadosPessoas {
         System.out.printf("Menor altura foi: %.2f\n", menorAltura);
         System.out.printf("Maior altura foi: %.2f\n", maiorAltura);
         System.out.printf("Média das alturas das mulheres: %.2f\n", mediaAltF);
-        System.out.printf("Numero de homens: %.2f\n", masc);
+        System.out.printf("Numero de homens: %d\n", masc);
 
 
         sc.close();
