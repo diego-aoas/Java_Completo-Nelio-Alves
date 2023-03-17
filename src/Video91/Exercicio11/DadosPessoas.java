@@ -30,7 +30,6 @@ public class DadosPessoas {
                 fem += 1;
             }
 
-
             if (altura[i] > maiorAltura) {
                 maiorAltura = altura[i];
             }
@@ -42,10 +41,10 @@ public class DadosPessoas {
 
         mediaAltF = mediaAltF / fem;
 
-        System.out.println("Menor altura foi: " + menorAltura);
-        System.out.println("Maior altura foi: " + maiorAltura);
+        System.out.printf("Menor altura foi: %.2f\n", menorAltura);
+        System.out.printf("Maior altura foi: %.2f\n", maiorAltura);
         System.out.printf("Média das alturas das mulheres: %.2f\n", mediaAltF);
-        System.out.println("Numero de homens: " + masc);
+        System.out.printf("Numero de homens: %.2f\n", masc);
 
 
         sc.close();
