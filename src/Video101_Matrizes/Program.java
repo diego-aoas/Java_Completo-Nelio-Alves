@@ -16,7 +16,6 @@ public class Program {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.printf("Enter number i(%d) e j(%d): ", i, j);
                 mat[i][j] = sc.nextInt();
 
                 if (mat[i][j] < 0) {
@@ -25,7 +24,7 @@ public class Program {
             }
         }
 
-        System.out.printf("\n\nMain diagonal: ");
+        System.out.printf("Main diagonal: ");
         for (int i = 0; i < n; i++) {
             System.out.print(mat[i][i] + " ");
         }
