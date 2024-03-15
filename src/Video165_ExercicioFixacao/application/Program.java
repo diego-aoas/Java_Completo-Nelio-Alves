@@ -15,7 +15,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        List<TaxPayer> list = new ArrayList<>();
+        List<TaxPayer> list = new ArrayList<TaxPayer>();
 
         System.out.print("Enter the number of tax payers: ");
         int n = sc.nextInt();
@@ -44,14 +44,16 @@ public class Program {
                 list.add(new Company(name, anualIncome, nEmploy));
             }
         }
-        double sum = 0.0;
 
         System.out.println("\nTAXES PAID:");
 
         for (TaxPayer tp : list) {
             System.out.printf("%s: $ %.2f%n", tp.getName(), tp.tax());
-            sum += tp.tax();
+        }
 
+        double sum = 0.0;
+        for (TaxPayer tp : list) {
+            sum += tp.tax();
         }
 
         System.out.println("\nTOTAL TAXES:");
