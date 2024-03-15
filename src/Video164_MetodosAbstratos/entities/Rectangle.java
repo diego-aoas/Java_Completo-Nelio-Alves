@@ -3,7 +3,6 @@ package Video164_MetodosAbstratos.entities;
 import Video164_MetodosAbstratos.entities.enums.Color;
 
 public class Rectangle extends Shape {
-
     private Double width;
     private Double height;
 

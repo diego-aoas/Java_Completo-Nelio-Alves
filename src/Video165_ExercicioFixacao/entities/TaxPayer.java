@@ -7,6 +7,11 @@ public abstract class TaxPayer {
     public TaxPayer() {
     }
 
+    public TaxPayer(String name, Double anualIncome) {
+        this.name = name;
+        this.anualIncome = anualIncome;
+    }
+
     public String getName() {
         return name;
     }

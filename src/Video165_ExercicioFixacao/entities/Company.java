@@ -3,11 +3,8 @@ package Video165_ExercicioFixacao.entities;
 public class Company extends TaxPayer {
     private int numberOfEmployees;
 
-    public Company() {
-        super();
-    }
-
-    public Company(int numberOfEmployees) {
+    public Company(String name, Double anualIncome, int numberOfEmployees) {
+        super(name, anualIncome);
         this.numberOfEmployees = numberOfEmployees;
     }
 
@@ -22,9 +19,9 @@ public class Company extends TaxPayer {
     @Override
     public double tax() {
         if (numberOfEmployees <= 10) {
-            return getAnualIncome() * 1.16;
+            return getAnualIncome() * 0.16;
         } else {
-            return getAnualIncome() * 1.14;
+            return getAnualIncome() * 0.14;
         }
     }
 }
