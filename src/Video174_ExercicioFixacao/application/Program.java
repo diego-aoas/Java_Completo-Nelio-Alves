@@ -25,7 +25,7 @@ public class Program {
 
         Account acc = new Account(num, hold, balance, wLimit);
 
-      System.out.println("Enter amount for withdraw: " + acc.getBalance());
+        System.out.println("Enter amount for withdraw: " + acc.getBalance());
         //terminar
 
         sc.close();

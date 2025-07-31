@@ -39,7 +39,7 @@ public class Program_Bom {
             System.out.println("invalid date format.");
         } catch (DomainException e) {
             System.out.println("Error in reservation: " + e.getMessage());
-        }catch (RuntimeException e){
+        } catch (RuntimeException e) {
             System.out.println("Unexpected error.");
         }
 

@@ -26,13 +26,16 @@ public class Program {
                 if (mat[i][j] == escolhido) {
                     System.out.println("Position: " + i + ", " + j + ":");
                     if (j > 0) {
-                        System.out.println("Left: " + mat[i][j-1]);
-                    }if (j < mat[i].length-1) {
-                        System.out.println("Right: " + mat[i][j+1]);
-                    }if (i > 0) {
-                        System.out.println("Up: " + mat[i-1][j]);
-                     }if (i < mat[i].length-1) {
-                        System.out.println("Down: " + mat[i+1][j]);
+                        System.out.println("Left: " + mat[i][j - 1]);
+                    }
+                    if (j < mat[i].length - 1) {
+                        System.out.println("Right: " + mat[i][j + 1]);
+                    }
+                    if (i > 0) {
+                        System.out.println("Up: " + mat[i - 1][j]);
+                    }
+                    if (i < mat[i].length - 1) {
+                        System.out.println("Down: " + mat[i + 1][j]);
                     }
                 }
             }

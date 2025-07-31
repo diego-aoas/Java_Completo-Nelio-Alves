@@ -14,7 +14,8 @@ public class Program {
     public static void method1() {
         System.out.println("*** METHOD1 START ***");
 
-        method2();      ;
+        method2();
+        ;
 
         System.out.println("*** METHOD1 END ***");
     }

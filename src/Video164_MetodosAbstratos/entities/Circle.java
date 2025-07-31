@@ -2,7 +2,7 @@ package Video164_MetodosAbstratos.entities;
 
 import Video164_MetodosAbstratos.entities.enums.Color;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
 
     private Double radius;
 

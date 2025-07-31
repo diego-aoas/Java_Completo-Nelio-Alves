@@ -14,8 +14,7 @@ public class Program {
             while (sc.hasNextLine()) {
                 System.out.println(sc.nextLine());
             }
-        }
-        catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             System.out.println("Error opening file: " + e.getMessage());
         } finally {
             if (sc != null) {
