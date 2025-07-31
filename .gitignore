@@ -1,1 +1,4 @@
-/bin
+/.idea/
+/.metadata/
+/bin/
+/.settings/
